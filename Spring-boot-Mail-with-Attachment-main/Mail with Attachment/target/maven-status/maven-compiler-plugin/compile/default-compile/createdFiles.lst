@@ -1,0 +1,2 @@
+com\Sample\Mail\MailApplication.class
+com\Sample\Mail\service\EmailSenderService.class

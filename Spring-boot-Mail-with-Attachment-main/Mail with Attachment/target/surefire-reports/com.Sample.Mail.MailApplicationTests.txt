@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.Sample.Mail.MailApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 9.533 s <<< FAILURE! - in com.Sample.Mail.MailApplicationTests
+contextLoads  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.mail.MailSendException: 
+Failed messages: javax.mail.MessagingException: IOException while sending message;
+  nested exception is:
+	java.io.FileNotFoundException: \home\rahul\Pictures\Sales management System.png
+
